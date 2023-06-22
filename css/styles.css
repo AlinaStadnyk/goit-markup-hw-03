@@ -178,6 +178,7 @@ img {
 
 .benefits-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 24px;
 }
@@ -220,6 +221,7 @@ img {
 
 .functions-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -241,6 +243,7 @@ img {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -274,6 +277,10 @@ img {
 }
 
 .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 48px;
 }
 .projects-example {
   font-weight: 500;
@@ -307,4 +314,11 @@ img {
 .filter-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+.project-card {
+  width: (100% - 24 * 2) / 3;
+}
+
+.project-card-text {
+  border: ;
 }
