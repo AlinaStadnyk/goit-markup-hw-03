@@ -199,17 +199,13 @@ img {
   padding: 120px 0;
   padding-bottom: 60px;
 }
-.benefits-container {
-  display: flex;
-}
 
-.benefits-title {
-}
 .benefits-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
+  flex-wrap: wrap;
 }
+
 .benefits-item {
   width: calc((100% - 24 * 3) / 4);
 }
@@ -297,7 +293,7 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-contaienr {
+.footer-container {
   padding: 101px 1020px 100px 156px;
 }
 .footer-logo {
