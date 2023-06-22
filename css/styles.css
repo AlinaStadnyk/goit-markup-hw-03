@@ -202,7 +202,6 @@ img {
 .benefits-list {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .benefits-item {
@@ -347,7 +346,6 @@ img {
   display: flex;
   gap: 24px;
   text-align: center;
-  padding-top: 168px;
   padding-bottom: 72px;
   justify-content: center;
   margin-bottom: 72px;
