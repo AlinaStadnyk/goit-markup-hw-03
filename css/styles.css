@@ -197,7 +197,6 @@ img {
 
 .section-benefits {
   padding: 120px 0;
-  padding-bottom: 60px;
 }
 
 .benefits-list {
@@ -207,7 +206,7 @@ img {
 }
 
 .benefits-item {
-  width: calc((100% - 24 * 3) / 4);
+  width: calc ((100% - 24 * 3) / 4);
 }
 
 .section-title {
