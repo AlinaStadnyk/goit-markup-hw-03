@@ -215,7 +215,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--hero-background);
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .section-text {
@@ -224,14 +223,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 
 /* Section functions */
 
 .section-functions {
   text-align: center;
-  background-color: #f4f4fd;
   padding-bottom: 120px;
 }
 
@@ -247,12 +244,10 @@ img {
 
 .functions-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 
 .functions-item {
-  background-color: var(--main-background-light);
   width: calc((100% - 48px) / 3);
 }
 
@@ -269,7 +264,6 @@ img {
 
 .team-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -292,7 +286,6 @@ img {
   padding-bottom: 100px;
 }
 .footer-container {
-  padding: 101px 1020px 100px 156px;
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -346,7 +339,6 @@ img {
   display: flex;
   gap: 24px;
   text-align: center;
-  padding-bottom: 72px;
   justify-content: center;
   margin-bottom: 72px;
 }
